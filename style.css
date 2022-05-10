@@ -1,7 +1,10 @@
 
   
   body{
-      background-color: black;
+      background-image: url("https://wallpapercave.com/wp/wp7684805.jpg");
+      background-size: cover;
+      height: 100%;
+      width: 100%;
   }
 
   *{
@@ -20,7 +23,8 @@
   .image{
    height: 300px;
    width: 250px;
-   margin: 40px;
+   margin: 30px;
+  
   }
 
   .is-hidden { display: none; }
@@ -54,7 +58,7 @@
 
 }
 
-.search-bar  > i {
+.search-bar  ,i {
 
 	font-size: 20px;
 
@@ -62,7 +66,7 @@
 
 }
 
-.search-bar > input{
+.search-bar ,input{
 
 	flex: 1;
 
